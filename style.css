@@ -1,0 +1,226 @@
+/* Imported_font */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Ms+Madi&family=Pacifico&family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Ruda&display=swap');
+
+/* Root_file  and variable Begins*/
+:root{
+    --custom-color: rgb(87, 81, 81);
+    --padding: 20px;
+    --meduim-font-size: 1.2em;
+    --large-font-size: 1.6em;
+    --big-font-size: 2.5em;
+    --input-padding: 15px 25px;
+    --border-radius: 8px;
+    --margin-bottom: 20px;
+    --margin-top: 10px;
+    --border: 1px solid rgb(92, 104, 104);
+}
+
+/* Root_file  and variable Ends*/
+
+/* body_config_file Begins*/
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(215, 235, 248);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body_config_file Ends*/
+
+/* Responsive_container_config  Begins*/
+.container{
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;    
+}
+
+.color-emphasis-1{color: steelblue}
+
+.project_name{
+    margin-bottom: var(--margin-bottom);
+    font-size: 25px;
+    text-align: center;
+  margin: 0 auto;
+  justify-content: ;
+  
+}
+
+.navbar {
+    margin: 0 auto;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: var(--large-font-size);
+    padding-right: 50px;
+    margin-top: var(--margin-top);
+
+}
+
+
+
+.form{
+    width: 50%;
+    margin: 30px auto; 
+}
+
+.form__group{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+}
+
+.form__group-label{
+    color: var(--custom-color);
+    font-size: var(--meduim-font-size);
+    margin-bottom: var(--margin-bottom);
+
+}
+
+input{
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    
+}
+
+input::placeholder{
+    font-size: medium;
+}
+
+input:focus{
+    outline-color: rgb(64, 141, 141);
+}
+
+select{
+    padding: var(--input-padding);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    color: var(--custom-color);
+}
+
+/* Responsive_container_config  Ends*/
+
+
+
+/* Button_config */
+.btn-submit{
+    margin-top: var(--margin-top);
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: var(--border-radius);
+    background-color: steelblue;
+    color: white;
+    font-size: var(--meduim-font-size);
+    transition: 0.3s;
+}
+
+.btn-submit:hover{
+    background: rgb(53, 102, 142);
+}
+
+/* Button_config Ends*/
+
+/* footer_config */
+footer{
+    background: #fff;
+    box-sizing: border-box;
+    
+    position: relative;
+
+    background: #2A2C39;
+    height: auto;
+    width: 1200px;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+
+/* footer_config Ends */
+
+/* about_us config */
+.about_us{
+    color: #000;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    
+    box-sizing: border-box;
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+
+    font-size: var(--meduim-font-size);
+}
+
+.about_us ul li{
+    list-style-type: none;
+
+}
+
+.about_us p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+/* about_us config Ends*/
+
+/* phone logo styles */
+
+#phone-group {
+display: flex;
+  flex-direction: row
+}
+
+#tel-label {
+  margin-bottom: 15px
+}
+
+.area-no {
+  width: 20%
+}
+
+#phone{
+  width: 195%;
+  margin-left:2%
+}
+
+.phone-logo{
+
+  background-size: contain;
+  margin-left: 40%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  background: none;
+}

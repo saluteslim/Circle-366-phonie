@@ -1,19 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="index2.html">About Us</a>
+  </div>
+  <main class="container">
+
+    <!-- Concerning the Project     -->
+
+    <section class="form">
+      <div class="form">
+        <h1 class="project_name"> Circle 366's Phonie <span class="reg">&reg;</span> </h1>
+
+      </div>
+    </section>
+
+
+    <!-- User form      -->
+    <section>
+
+      <form action="" method="post" class="form">
+        <div class="form__group">
+          <label for="first_name" class="form__group-label">First name</label>
+          <input type="text" class="first_name" id="first_name" placeholder="First name" required>
+        </div>
+
+        <div class="form__group">
+          <label for="last_name" class="form__group-label">Last name</label>
+          <input type="text" class="last_name" id="last_name" placeholder="Last name" required>
+        </div>
+
+        <div class="form__group">
+          <label for="email" class="form__group-label">Email address</label>
+          <input type="email" class="email" id="email" placeholder="example@gmail.com" required>
+        </div>
+
+
+        <div class="form__group">
+          <label for="country" class="form__group-label"> Country </label>
+
+          <input type="text" class="country" id="country" placeholder="country" required>
+        </div>
+
+        <label for="phone" id="tel-label" class="form__group-label">Enter your mobile number </label>
+        <div class="form__group" id="phone-group">
+          <input name="phone" type="text" id="phone" />
+          <div id="phone-logo" class="phone-logo">
+
+          </div>
+          <!--  <select name="area-no" class = area-no required>
+            <option value="area-no">...</option>
+          
+          </select>
+          
+
+            <input type="tel" class="phone" id="phone" placeholder="123-456-7890"
+              pattern="[0-9] {3}-[0-9] {3}-[0-9] {4}" size="10" minlength="9" maxlength="10" list="defaultTels"
+              required> 
+            <div class="phone-logo">
+           
+            </div>
+
+          <span class="validity"></span> -->
+        </div>
+
+
+
+
+        <!-- Gender form -->
+        <div class="form__group">
+          <label for="gender" class="form__group-label">Gender</label>
+          <select name="gender" required>
+            <option value="...">...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="not_to_say">Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form__group">
+          <label for="origin" class="form__group-label">State of origin</label>
+          <select name="origin">
+            <option value=""></option>
+            <option value="abia">Abia</option>
+            <option value="adamawa">Adamawa</option>
+            <option value="akwa_ibom">Akwa Ibom</option>
+            <option value="anambra">Anambra</option>
+            <option value="bauchi">Bauchi</option>
+            <option value="bayelsa">Bayelsa</option>
+            <option value="benue">Benue</option>
+            <option value="borno">Borno</option>
+            <option value="cross_river">Cross River</option>
+            <option value="delta">Delta</option>
+            <option value="ebonyi">Ebonyi</option>
+            <option value="edo">Edo</option>
+            <option value="ekiti">Ekiti</option>
+            <option value="enugu">Enugu</option>
+            <option value="gombe">Gombe</option>
+            <option value="imo">Imo</option>
+            <option value="jigawa">Jigawa</option>
+            <option value="kaduna">Kaduna</option>
+            <option value="kano">Kano</option>
+            <option value="katsina">Katsina</option>
+            <option value="kebbi">Kebbi</option>
+            <option value="kogi">Kogi</option>
+            <option value="kwara">Kwara</option>
+            <option value="lagos">Lagos</option>
+            <option value="nasarawa">Nasarawa</option>
+            <option value="niger">Niger</option>
+            <option value="ogun">Ogun</option>
+            <option value="ondo">Ondo</option>
+            <option value="osun">Osun</option>
+            <option value="oyo">Oyo</option>
+            <option value="plateau">Plateau</option>
+            <option value="rivers">Rivers</option>
+            <option value="sokoto">Sokoto</option>
+            <option value="taraba">Taraba</option>
+            <option value="yobe">Yobe</option>
+            <option value="zamfara">Zamfara</option>
+          </select>
+        </div>
+
+        <!-- Button -->
+        <div class="form__group">
+          <button class="btn-submit">Submit</button>
+        </div>
+      </form>
+
+    </section>
+
+  </main>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
