@@ -54,6 +54,3 @@ myInput.addEventListener('input', e => {
   } 
 
 });
-
-const form = document.getElementById('form') 
-const phone = document.getElementById('phone')
